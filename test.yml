@@ -1,0 +1,7 @@
+---
+- name: test
+  hosts: et
+  become: yes
+  tasks:
+    - debug:
+        msg: "This is TEST Playbook !!"
