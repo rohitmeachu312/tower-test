@@ -3,4 +3,4 @@
   hosts: et
   tasks:
     - debug:
-        msg: "{{test_variable}}  - {{test_variable}}"
+        msg: "{{test_variable}}  - {{user_name}}"
