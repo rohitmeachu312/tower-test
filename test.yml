@@ -4,4 +4,4 @@
   become: yes
   tasks:
     - debug:
-        msg: "This is TEST Playbook !!"
+        msg: "This is {{test_variable}} Playbook !! {{test_variable}} template will execute with this variable from {{user_name}} user !!"
