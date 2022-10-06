@@ -1,6 +1,6 @@
 ---
 - name: msg
-  hosts: et
+  hosts: all
   tasks:
     - debug:
         msg: "{{test_variable}}  - {{user_name}}"
